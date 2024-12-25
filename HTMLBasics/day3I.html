@@ -1,0 +1,129 @@
+<!--
+   TOPICS COVERED:list{ordered,unorderd,description},horizontal listing,<div> element,class and id attribute
+    
+-->
+        <!--
+      Design a simple subjectlist for practical implementation of these topics
+    -->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Day3_Practise</title>
+        <style>
+            body{
+                background-color: mistyrose;
+            }
+            h1{
+                font-family: cursive;
+                font-weight: bolder;
+                color: black;
+                text-align: center;
+            }
+           ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color:darkred;
+                overflow:hidden;
+                width: 100%;
+            }
+           .demo{
+                float: left;
+            }
+            .demo a{
+                letter-spacing: 1px;
+                padding: 12px;
+                display: block;
+                color: lightcoral;
+                text-decoration: none;
+                text-align: center;
+            }
+            a:hover{
+                  background-color: honeydew;
+            }
+            .X{
+                  font-family: cursive;
+                  font-weight: bold;
+                  font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SUBJECT LIST</h1>
+        <ul >
+            <li class="demo"><a href="#1">CLASS-IX</a></li>
+             <li class="demo"><a href="#2">CLASS-X</a></li>
+             <li class="demo"><a href="#3">CLASS-XI(PCM)</a></li>
+             <li class="demo"><a href="#4">CLASS-XI(PCB)</a></li>
+             <li class="demo"><a href="#5">CLASS-XI(COMMERCE)</a></li>
+             <li class="demo"><a href="#6">CLASS-XI(HUMANITIES)</a></li>
+        </ul>     
+        <div class="X" id="1">
+              <h2 style="font-size: large;font-style: normal;">CLASS-IX SUBJECTLIST</h2>
+              <ol>
+                <li>HINDI</li>
+                <li>ENGLISH</li>
+                <li>MATHS</li>
+                <li>SCIENCE</li>
+                <li>SOCIAL STUDIES</li>
+                <li>COMPUTERS</li>
+              </ol>
+        </div> 
+        <div class="X" id="2">
+            <h2 style="font-size: large;font-style: normal;">CLASS-X SUBJECTLIST</h2>
+            <ol>
+              <li>HINDI</li>
+              <li>ENGLISH</li>
+              <li>MATHS</li>
+              <li>SCIENCE</li>
+              <li>SOCIAL STUDIES</li>
+              <li>COMPUTERS</li>
+            </ol>
+      </div> 
+      <div class="X" id="3">
+        <h2 style="font-size: large;font-style: normal;">CLASS-XI(PCM) SUBJECTLIST</h2>
+        <ol>
+          <li>PHYSICAL EDUCATION</li>
+          <li>ENGLISH</li>
+          <li>MATHS</li>
+          <li>MUSIC</li>
+          <li>PHYSICS</li>
+          <li>CHEMISTRY</li>
+        </ol>
+  </div> 
+  <div class="X" id="4">
+    <h2 style="font-size: large;font-style: normal;">CLASS-XI(PCB) SUBJECTLIST</h2>
+    <ol>
+      <li>PHYSICAL EDUCATION</li>
+      <li>ENGLISH</li>
+      <li>BIOLOGY</li>
+      <li>MUSIC</li>
+      <li>PHYSICS</li>
+      <li>CHEMISTRY</li>
+    </ol>
+</div> 
+<div class="X" id="5">
+    <h2 style="font-size: large;font-style: normal;">CLASS-XI(COMMERCE) SUBJECTLIST</h2>
+    <ol>
+      <li>PHYSICAL EDUCATION</li>
+      <li>ENGLISH</li>
+      <li>BUSINESS STUDIES</li>
+      <li>ACCOUNTS</li>
+      <li>ECONOMICS</li>
+      <li>MUSIC</li>
+    </ol>
+</div> 
+<div class="X" id="6">
+    <h2 style="font-size: large;font-style: normal;">CLASS-XI(HUMANITIES) SUBJECTLIST</h2>
+    <ol>
+      <li>PHYSICAL EDUCATION</li>
+      <li>ENGLISH</li>
+      <li>HISTORY</li>
+      <li>MUSIC</li>
+      <li>POLITICAL SCIENCE</li>
+      <li>GEOGRAPHY</li>
+    </ol>
+</div> 
+    </body>
+</html>    
